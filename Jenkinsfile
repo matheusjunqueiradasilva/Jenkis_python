@@ -7,7 +7,7 @@ pipeline {
         sh 'python3 --version'
       }
     }
-    stage('hello') {
+    stage('script') {
       steps {
         sh 'python3 jenkins_python.py'
       }
