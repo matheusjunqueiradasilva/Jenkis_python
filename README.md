@@ -15,26 +15,41 @@ Como executar o repositório
 Para executar o repositório do GitHub, siga as etapas abaixo:
 
 Clone o repositório para o seu computador:
+
 Copie  o codigo
-'''' 
+''''' 
 git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git 
-''''
+'''''
 Navegue até o diretório clonado:
-''''' cd JENKIS_PYTHON '''''
+'''''
+cd JENKIS_PYTHON
+'''''
 Execute o comando para construir a imagem Docker:
 Copie  o codigo:
-''''' docker build -t nome/nomedoApp:versão . '''''
+'''''
+docker build -t nome/nomedoApp:versão . 
+
+'''''
 Execute o contêiner Docker:
-Copie o codigo
+Copie o codigo:
+'''''
 docker compose up
+'''''
+
 dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando: 
-''''' service jenkins start '''''
+'''''
+service jenkins start
+'''''
 
 Agora você pode acessar o Jenkins no seu navegador na porta:
-''''' http://localhost:8080 '''''' 
+''''' 
+http://localhost:8080 
+'''''' 
 
 assim que voce acessar o seu local host o jenkis vai pedir pra voce pegar o código de primeiro acesso que está na seguinte pasta:
-''''' /var/lib/jenkins/secrets/initialAdminPassword '''''
+'''''
+/var/lib/jenkins/secrets/initialAdminPassword
+'''''
 
 o jenkis vai pedir para criar os usuários eu coloquei 'teste' em tudos os campos ate o email: teste@gmail.com
 
