@@ -30,14 +30,14 @@ Copie  o codigo:**
 ````
 docker build -t nome/nomedoApp:versão . 
 ````
-**Execute o Compose do Docker Docker:
+**Execute o Compose do Docker Docker:**
 ### No meu compose eu coloquei um postgres de brinde ###
 
 **Copie o codigo:**
 ````
 docker compose up
 ````
-**dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando: **
+**dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando:**
 ````
 service jenkins start
 ````
