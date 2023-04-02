@@ -1,0 +1,41 @@
+version: '3.9'
+
+volumes:
+  postgres:
+  jenkin-python:
+
+services:
+  jenkins-python:
+    tty: true
+    image: python/jenkins:1.0
+    container_name: jenkins-python
+    networks:
+      - compose-bridge   
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+    volumes:
+      - jenkins-python:/var/lib/jenkins-python/data
+
+    command: "service jenkins start"
+
+
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    networks:
+      - compose-bridge
+    environment:
+      - POSTGRES_PASSWORD=teste
+    ports:
+      - "5432:5432"
+    
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+networks:
+  compose-bridge:
+    driver: bridge

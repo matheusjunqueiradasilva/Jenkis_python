@@ -1,5 +1,5 @@
 import jenkins
-from settings import usuario, senha, host
+from python.settings import usuario, senha, host
 
 
 
