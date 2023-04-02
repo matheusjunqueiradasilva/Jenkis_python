@@ -17,7 +17,7 @@ Com essa imagem, você tem tudo o que precisa para executar o repositório com o
 
 **Clone o repositório para o seu computador:**
 
-**Copie  o codigo**
+**Copie  o codigo:**
 
 ````
 git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git 
@@ -34,7 +34,7 @@ cd JENKIS_PYTHON
 docker build -t nome/nomedoApp:versão . 
 ````
 **Execute o Compose do Docker Docker:**
-### No meu compose eu coloquei um postgres de brinde ###
+### No meu compose eu coloquei um postgres por colocar :) ###
 
 **Copie o codigo:**
 ````
