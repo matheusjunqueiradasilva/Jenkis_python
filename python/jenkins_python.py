@@ -15,7 +15,7 @@ class jenkis_python:
     def jk_job(self):
         self.server.delete_job('python')
         self.server.create_job('python', jenkins.EMPTY_CONFIG_XML)
-        self.server.build_job('python', {'param1': 'test value 1', 'param2': 'test value 2'})
+        self.server.build_job('python')
         last_build_number = self.server.get_job_info('python')['lastCompletedBuild']['number']
         build_info = self.server.get_build_info('python', last_build_number)
         print (build_info)
