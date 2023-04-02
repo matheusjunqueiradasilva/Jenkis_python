@@ -1,4 +1,4 @@
-## Projeto de Integração do Jenkins worflows que precisam rodar scripts Python 
+## Projeto de Integração do Jenkins para worflows que precisam rodar scripts Python 
 
 Este é um projeto de integração do Jenkins com Python, criado por Matheus Junqueira da Silva.
 
