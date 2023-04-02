@@ -26,7 +26,7 @@ git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git
 cd JENKIS_PYTHON
 ````
 **Execute o comando para construir a imagem Docker:**
-Copie  o codigo:**
+**Copie  o codigo:**
 ````
 docker build -t nome/nomedoApp:versão . 
 ````
