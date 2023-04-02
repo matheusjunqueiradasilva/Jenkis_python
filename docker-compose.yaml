@@ -15,7 +15,8 @@ services:
     depends_on:
       - postgres
 
-
+    volumes:
+     - ./docker/jenkins/:/var/jenkins_home
 
   postgres:
     image: postgres
