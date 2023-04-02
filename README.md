@@ -40,7 +40,7 @@ docker build -t nome/nomedoApp:versão .
 ````
 docker compose up
 ````
-**dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando:**
+**dentro do seu container do seu compose caso o seu jenkins não inicie rode o seguinte comando:**
 ````
 service jenkins start
 ````
