@@ -15,12 +15,12 @@ Como executar o repositório
 Para executar o repositório do GitHub, siga as etapas abaixo:
 
 Clone o repositório para o seu computador:
-Copie  o codigo
+Copie  o codigo:
 ''''' git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git '''''
 Navegue até o diretório clonado:
 ''''' cd JENKIS_PYTHON '''''
 Execute o comando para construir a imagem Docker:
-Copie  o codigo
+Copie  o codigo:
 ''''' docker build -t nome/nomedoApp:versão . '''''
 Execute o contêiner Docker:
 Copie o codigo
