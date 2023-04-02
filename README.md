@@ -11,13 +11,13 @@ A imagem Docker criada neste projeto contém as seguintes ferramentas:
 
 Com essa imagem, você tem tudo o que precisa para executar o repositório com os arquivos python no meu repositorio do GitHub.
 
-**Como executar o repositório?
+**Como executar o repositório?**
 
-Para executar o repositório do GitHub, siga as etapas abaixo:**
+**Para executar o repositório do GitHub, siga as etapas abaixo:**
 
-**Clone o repositório para o seu computador:
+**Clone o repositório para o seu computador:**
 
-Copie  o codigo**
+**Copie  o codigo**
 
 ````
 git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git 
