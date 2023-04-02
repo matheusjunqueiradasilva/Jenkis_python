@@ -54,7 +54,7 @@ http://localhost:8080
 
 feito isso o jenkins vai te dar opções para instar os plugins padrões ou os costumizadas.
 
-o jenkis vai pedir para criar os usuários eu coloquei 'teste' em tudos os campos ate o email: teste@gmail.com
+o jenkis vai pedir para criar o usuário eu coloquei 'teste' em tudos os campos ate o email: teste@gmail.com
 
 se caso você colocar algo diferente irá precisar mudar no seu arquivo **settings.py** do repositório que baixou, lá ta as variaveis de ambiente do código que eu criei
 para acessar o jenkins e criar um job nele através da api **Python-Jenkins.**
