@@ -4,10 +4,10 @@ Este é um projeto de integração do Jenkins com Python.
 
 A imagem Docker criada neste projeto contém as seguintes ferramentas:
 
-Ubuntu
-Git
-Python
-Jenkins
+**Ubuntu**
+**Git**
+**Python**
+**Jenkins**
 
 Com essa imagem, você tem tudo o que precisa para executar o repositório com os arquivos python no meu repositorio do GitHub.
 
