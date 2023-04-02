@@ -1,6 +1,6 @@
 # Projeto de Integração do Jenkins para worflows que precisam rodar scripts Python 
 
-Este é um projeto de integração do Jenkins com Python, criado por Matheus Junqueira da Silva.
+Este é um projeto de integração do Jenkins com Python.
 
 Imagem Docker
 A imagem Docker criada neste projeto contém as seguintes ferramentas:
