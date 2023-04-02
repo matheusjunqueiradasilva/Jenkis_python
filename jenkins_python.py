@@ -13,12 +13,9 @@ class jenkis_python:
         print(('usuário: %s.  a versão do seu Jenkins é %s' % (user['fullName'], version)))  
 
     def jk_job(self):
-        try:
-            self.server.delete_job('python')
-        except TypeError:
-            print("erro ao apagar o job")
-
         self.server.create_job('python', jenkins.EMPTY_CONFIG_XML)
+        self.server.delete_job('python')
+        self.server.create_job('python', jenkins.EMPTY_CONFIG_XML)       
         self.server.build_job('python')
         last_build_number = self.server.get_job_info('python')['lastCompletedBuild']['number']
         build_info = self.server.get_build_info('python', last_build_number)
