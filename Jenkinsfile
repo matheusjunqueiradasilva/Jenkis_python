@@ -1,4 +1,3 @@
-
 pipeline {
   agent any
   stages {
@@ -7,14 +6,10 @@ pipeline {
         sh 'python3 --version'
       }
     }
-    stage('cd') {
-      steps {
-        sh 'cd: python'
-      }
-    }
-  }stage('python') {
+    stage('python') {
       steps {
         sh 'python3 jenkins_python.py'
       }
     }
+  }
 }
