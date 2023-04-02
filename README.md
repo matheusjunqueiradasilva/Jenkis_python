@@ -1,4 +1,4 @@
-## Projeto de Integração do Jenkins para worflows que precisam rodar scripts Python 
+# Projeto de Integração do Jenkins para worflows que precisam rodar scripts Python 
 
 Este é um projeto de integração do Jenkins com Python, criado por Matheus Junqueira da Silva.
 
@@ -30,8 +30,10 @@ Copie  o codigo:**
 ````
 docker build -t nome/nomedoApp:versão . 
 ````
-**Execute o contêiner Docker:
-Copie o codigo:**
+**Execute o Compose do Docker Docker:
+### No meu compose eu coloquei um postgres de brinde ###
+
+**Copie o codigo:**
 ````
 docker compose up
 ````
@@ -61,5 +63,19 @@ o proximo passo é voce criar um workflow job teste e nas opções avançadas do
 feito isso coloque o link do repositório que tenha o arquivo "Jenkisfile", colocar a sua branch e buildar o pipenile.
 
 
+### links úteis:
 
+**JENKINS**
+````
+https://www.jenkins.io/doc/
+````
 
+**API python-jenkins**
+````
+https://python-jenkins.readthedocs.io/en/latest/
+````
+
+**Docker**
+````
+https://docs.docker.com/get-started/
+````
