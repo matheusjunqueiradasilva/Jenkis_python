@@ -2,7 +2,6 @@ version: '3.9'
 
 volumes:
   postgres:
-  jenkin-python:
 
 services:
   jenkins-python:
@@ -15,11 +14,6 @@ services:
       - "8080:8080"
     depends_on:
       - postgres
-
-    volumes:
-      - jenkins-python:/var/lib/jenkins-python/data
-
-    command: "service jenkins start"
 
 
 
