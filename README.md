@@ -11,11 +11,13 @@ A imagem Docker criada neste projeto contém as seguintes ferramentas:
 
 Com essa imagem, você tem tudo o que precisa para executar o repositório com os arquivos python no meu repositorio do GitHub.
 
-**Como executar o repositório?
-Para executar o repositório do GitHub, siga as etapas abaixo:**
+**Como executar o repositório?**
 
-**Clone o repositório para o seu computador:
-Copie  o codigo**
+**Para executar o repositório do GitHub, siga as etapas abaixo:**
+
+**Clone o repositório para o seu computador:**
+
+**Copie  o codigo:**
 
 ````
 git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git 
@@ -26,18 +28,19 @@ git clone https://github.com/matheusjunqueiradasilva/Jenkis_python.git
 cd JENKIS_PYTHON
 ````
 **Execute o comando para construir a imagem Docker:**
-Copie  o codigo:**
+
+**Copie  o codigo:**
 ````
 docker build -t nome/nomedoApp:versão . 
 ````
-**Execute o Compose do Docker Docker:
-### No meu compose eu coloquei um postgres de brinde ###
+**Execute o Compose do Docker Docker:**
+### No meu compose eu coloquei um postgres por colocar :) ###
 
 **Copie o codigo:**
 ````
 docker compose up
 ````
-**dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando: **
+**dentro do seu container do seu compose voce vai precisar inciar o jenkins com o seguinte comando:**
 ````
 service jenkins start
 ````
@@ -54,7 +57,7 @@ http://localhost:8080
 
 feito isso o jenkins vai te dar opções para instar os plugins padrões ou os costumizadas.
 
-o jenkis vai pedir para criar os usuários eu coloquei 'teste' em tudos os campos ate o email: teste@gmail.com
+o jenkis vai pedir para criar o usuário eu coloquei 'teste' em tudos os campos ate o email: teste@gmail.com
 
 se caso você colocar algo diferente irá precisar mudar no seu arquivo **settings.py** do repositório que baixou, lá ta as variaveis de ambiente do código que eu criei
 para acessar o jenkins e criar um job nele através da api **Python-Jenkins.**
